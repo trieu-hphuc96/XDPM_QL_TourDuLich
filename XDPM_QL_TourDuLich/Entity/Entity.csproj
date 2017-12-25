@@ -43,6 +43,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,8 +53,11 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DAL\Class1.cs" />
+    <Compile Include="DAL\Tour.cs" />
+    <Compile Include="List_to_DataTable.cs" />
     <Compile Include="Models\DiaDiemDL.cs" />
     <Compile Include="Models\DoanDL.cs" />
+    <Compile Include="Models\DoanDL_KhachHang.cs" />
     <Compile Include="Models\DoanDL_NhanVien.cs" />
     <Compile Include="Models\Doan_ChiPhiKhac.cs" />
     <Compile Include="Models\Doan_KhachSan.cs" />
@@ -67,6 +71,7 @@
     <Compile Include="Models\QL_TourDuLichDBContext.cs" />
     <Compile Include="Models\TinhThanh.cs" />
     <Compile Include="Models\Tour.cs" />
+    <Compile Include="Models\Tour_DiaDiemDL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

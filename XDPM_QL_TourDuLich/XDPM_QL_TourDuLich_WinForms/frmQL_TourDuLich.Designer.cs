@@ -34,11 +34,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -53,6 +48,11 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -68,12 +68,6 @@
             this.gbTour_DanhSachTour = new System.Windows.Forms.GroupBox();
             this.lbTimKiem_DanhSachTour = new System.Windows.Forms.Label();
             this.dgvTour_DanhSachTour = new System.Windows.Forms.DataGridView();
-            this.clMaTour_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clTenTour_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clGia_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clSoDiemDuLich_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clSLNgay_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clLoaiHinhDL_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTimKiem_DanhSachTour = new System.Windows.Forms.TextBox();
             this.tpDanhSachCacDiaDiem = new System.Windows.Forms.TabPage();
             this.gbDiaDiem_DanhSachCacDiaDiem = new System.Windows.Forms.GroupBox();
@@ -85,11 +79,6 @@
             this.gbTour_DanhSachCacDiaDiem = new System.Windows.Forms.GroupBox();
             this.lbTimKiem_DanhSachCacDiaDiem = new System.Windows.Forms.Label();
             this.dgvTour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridView();
-            this.clMaTour_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clTenTour_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clGia_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clSLNgay_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtTimKiem_DanhSachCacDiaDiem = new System.Windows.Forms.TextBox();
             this.tpTKChiPhiTour = new System.Windows.Forms.TabPage();
             this.tpTKDoanhThu = new System.Windows.Forms.TabPage();
@@ -103,6 +92,17 @@
             this.menuItemTKDoanhThu = new System.Windows.Forms.ToolStripMenuItem();
             this.menuItemTKTinhHinhHoatDong = new System.Windows.Forms.ToolStripMenuItem();
             this.tThoiGianHienTai = new System.Windows.Forms.Timer(this.components);
+            this.clMaTour_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTenTour_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clGia_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clSoDiemDuLich_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clSLNgay_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clLoaiHinhDL_DanhSachTour = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clMaTour_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTenTour_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clGia_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clSLNgay_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gbThoiGian.SuspendLayout();
             this.tcQL_TourDuLich.SuspendLayout();
             this.tpDanhSachTour.SuspendLayout();
@@ -278,58 +278,6 @@
             this.dgvTour_DanhSachTour.Size = new System.Drawing.Size(1032, 439);
             this.dgvTour_DanhSachTour.TabIndex = 4;
             // 
-            // clMaTour_DanhSachTour
-            // 
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clMaTour_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle3;
-            this.clMaTour_DanhSachTour.FillWeight = 61.07278F;
-            this.clMaTour_DanhSachTour.HeaderText = "Mã tour";
-            this.clMaTour_DanhSachTour.Name = "clMaTour_DanhSachTour";
-            this.clMaTour_DanhSachTour.ReadOnly = true;
-            // 
-            // clTenTour_DanhSachTour
-            // 
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clTenTour_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle4;
-            this.clTenTour_DanhSachTour.FillWeight = 147.2092F;
-            this.clTenTour_DanhSachTour.HeaderText = "Tên tour";
-            this.clTenTour_DanhSachTour.MinimumWidth = 50;
-            this.clTenTour_DanhSachTour.Name = "clTenTour_DanhSachTour";
-            this.clTenTour_DanhSachTour.ReadOnly = true;
-            // 
-            // clGia_DanhSachTour
-            // 
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clGia_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle5;
-            this.clGia_DanhSachTour.FillWeight = 100.3474F;
-            this.clGia_DanhSachTour.HeaderText = "Giá";
-            this.clGia_DanhSachTour.Name = "clGia_DanhSachTour";
-            this.clGia_DanhSachTour.ReadOnly = true;
-            // 
-            // clSoDiemDuLich_DanhSachTour
-            // 
-            this.clSoDiemDuLich_DanhSachTour.HeaderText = "Số điểm du lịch";
-            this.clSoDiemDuLich_DanhSachTour.Name = "clSoDiemDuLich_DanhSachTour";
-            this.clSoDiemDuLich_DanhSachTour.ReadOnly = true;
-            // 
-            // clSLNgay_DanhSachTour
-            // 
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clSLNgay_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle6;
-            this.clSLNgay_DanhSachTour.HeaderText = "SL ngày";
-            this.clSLNgay_DanhSachTour.Name = "clSLNgay_DanhSachTour";
-            this.clSLNgay_DanhSachTour.ReadOnly = true;
-            this.clSLNgay_DanhSachTour.Visible = false;
-            // 
-            // clLoaiHinhDL_DanhSachTour
-            // 
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clLoaiHinhDL_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle7;
-            this.clLoaiHinhDL_DanhSachTour.FillWeight = 91.37056F;
-            this.clLoaiHinhDL_DanhSachTour.HeaderText = "Loại hình DL";
-            this.clLoaiHinhDL_DanhSachTour.Name = "clLoaiHinhDL_DanhSachTour";
-            this.clLoaiHinhDL_DanhSachTour.ReadOnly = true;
-            // 
             // txtTimKiem_DanhSachTour
             // 
             this.txtTimKiem_DanhSachTour.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -337,6 +285,7 @@
             this.txtTimKiem_DanhSachTour.Name = "txtTimKiem_DanhSachTour";
             this.txtTimKiem_DanhSachTour.Size = new System.Drawing.Size(353, 20);
             this.txtTimKiem_DanhSachTour.TabIndex = 2;
+            this.txtTimKiem_DanhSachTour.TextChanged += new System.EventHandler(this.txtTimKiem_DanhSachTour_TextChanged);
             // 
             // tpDanhSachCacDiaDiem
             // 
@@ -520,52 +469,7 @@
             this.dgvTour_DanhSachCacDiaDiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTour_DanhSachCacDiaDiem.Size = new System.Drawing.Size(445, 439);
             this.dgvTour_DanhSachCacDiaDiem.TabIndex = 4;
-            // 
-            // clMaTour_Tour_DanhSachCacDiaDiem
-            // 
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clMaTour_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle22;
-            this.clMaTour_Tour_DanhSachCacDiaDiem.FillWeight = 61.07278F;
-            this.clMaTour_Tour_DanhSachCacDiaDiem.HeaderText = "Mã tour";
-            this.clMaTour_Tour_DanhSachCacDiaDiem.Name = "clMaTour_Tour_DanhSachCacDiaDiem";
-            this.clMaTour_Tour_DanhSachCacDiaDiem.ReadOnly = true;
-            // 
-            // clTenTour_Tour_DanhSachCacDiaDiem
-            // 
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clTenTour_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle23;
-            this.clTenTour_Tour_DanhSachCacDiaDiem.FillWeight = 147.2092F;
-            this.clTenTour_Tour_DanhSachCacDiaDiem.HeaderText = "Tên tour";
-            this.clTenTour_Tour_DanhSachCacDiaDiem.MinimumWidth = 50;
-            this.clTenTour_Tour_DanhSachCacDiaDiem.Name = "clTenTour_Tour_DanhSachCacDiaDiem";
-            this.clTenTour_Tour_DanhSachCacDiaDiem.ReadOnly = true;
-            // 
-            // clGia_Tour_DanhSachCacDiaDiem
-            // 
-            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clGia_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle24;
-            this.clGia_Tour_DanhSachCacDiaDiem.FillWeight = 100.3474F;
-            this.clGia_Tour_DanhSachCacDiaDiem.HeaderText = "Giá";
-            this.clGia_Tour_DanhSachCacDiaDiem.Name = "clGia_Tour_DanhSachCacDiaDiem";
-            this.clGia_Tour_DanhSachCacDiaDiem.ReadOnly = true;
-            // 
-            // clSLNgay_Tour_DanhSachCacDiaDiem
-            // 
-            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clSLNgay_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle25;
-            this.clSLNgay_Tour_DanhSachCacDiaDiem.HeaderText = "SL ngày";
-            this.clSLNgay_Tour_DanhSachCacDiaDiem.Name = "clSLNgay_Tour_DanhSachCacDiaDiem";
-            this.clSLNgay_Tour_DanhSachCacDiaDiem.ReadOnly = true;
-            this.clSLNgay_Tour_DanhSachCacDiaDiem.Visible = false;
-            // 
-            // clLoaiHinhDL_Tour_DanhSachCacDiaDiem
-            // 
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle26;
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.FillWeight = 91.37056F;
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.HeaderText = "Loại hình DL";
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.Name = "clLoaiHinhDL_Tour_DanhSachCacDiaDiem";
-            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            this.dgvTour_DanhSachCacDiaDiem.SelectionChanged += new System.EventHandler(this.dgvTour_DanhSachCacDiaDiem_SelectionChanged);
             // 
             // txtTimKiem_DanhSachCacDiaDiem
             // 
@@ -574,13 +478,14 @@
             this.txtTimKiem_DanhSachCacDiaDiem.Name = "txtTimKiem_DanhSachCacDiaDiem";
             this.txtTimKiem_DanhSachCacDiaDiem.Size = new System.Drawing.Size(381, 20);
             this.txtTimKiem_DanhSachCacDiaDiem.TabIndex = 2;
+            this.txtTimKiem_DanhSachCacDiaDiem.TextChanged += new System.EventHandler(this.txtTimKiem_DanhSachCacDiaDiem_TextChanged);
             // 
             // tpTKChiPhiTour
             // 
             this.tpTKChiPhiTour.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tpTKChiPhiTour.Location = new System.Drawing.Point(4, 22);
+            this.tpTKChiPhiTour.Location = new System.Drawing.Point(4, 29);
             this.tpTKChiPhiTour.Name = "tpTKChiPhiTour";
-            this.tpTKChiPhiTour.Size = new System.Drawing.Size(1143, 562);
+            this.tpTKChiPhiTour.Size = new System.Drawing.Size(1143, 555);
             this.tpTKChiPhiTour.TabIndex = 15;
             this.tpTKChiPhiTour.Text = "Thống kê chi phí tour";
             this.tpTKChiPhiTour.UseVisualStyleBackColor = true;
@@ -588,9 +493,9 @@
             // tpTKDoanhThu
             // 
             this.tpTKDoanhThu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tpTKDoanhThu.Location = new System.Drawing.Point(4, 22);
+            this.tpTKDoanhThu.Location = new System.Drawing.Point(4, 29);
             this.tpTKDoanhThu.Name = "tpTKDoanhThu";
-            this.tpTKDoanhThu.Size = new System.Drawing.Size(1143, 562);
+            this.tpTKDoanhThu.Size = new System.Drawing.Size(1143, 555);
             this.tpTKDoanhThu.TabIndex = 13;
             this.tpTKDoanhThu.Text = "Thống kê doanh thu";
             this.tpTKDoanhThu.UseVisualStyleBackColor = true;
@@ -598,9 +503,9 @@
             // tpTKTinhHinhHoatDong
             // 
             this.tpTKTinhHinhHoatDong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.tpTKTinhHinhHoatDong.Location = new System.Drawing.Point(4, 22);
+            this.tpTKTinhHinhHoatDong.Location = new System.Drawing.Point(4, 29);
             this.tpTKTinhHinhHoatDong.Name = "tpTKTinhHinhHoatDong";
-            this.tpTKTinhHinhHoatDong.Size = new System.Drawing.Size(1143, 562);
+            this.tpTKTinhHinhHoatDong.Size = new System.Drawing.Size(1143, 555);
             this.tpTKTinhHinhHoatDong.TabIndex = 14;
             this.tpTKTinhHinhHoatDong.Text = "Thống kê tình hình hoạt động";
             this.tpTKTinhHinhHoatDong.UseVisualStyleBackColor = true;
@@ -675,6 +580,102 @@
             this.tThoiGianHienTai.Enabled = true;
             this.tThoiGianHienTai.Tick += new System.EventHandler(this.tThoiGianHienTai_Tick);
             // 
+            // clMaTour_DanhSachTour
+            // 
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clMaTour_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle3;
+            this.clMaTour_DanhSachTour.FillWeight = 61.07278F;
+            this.clMaTour_DanhSachTour.HeaderText = "Mã tour";
+            this.clMaTour_DanhSachTour.Name = "clMaTour_DanhSachTour";
+            this.clMaTour_DanhSachTour.ReadOnly = true;
+            // 
+            // clTenTour_DanhSachTour
+            // 
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clTenTour_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle4;
+            this.clTenTour_DanhSachTour.FillWeight = 147.2092F;
+            this.clTenTour_DanhSachTour.HeaderText = "Tên tour";
+            this.clTenTour_DanhSachTour.MinimumWidth = 50;
+            this.clTenTour_DanhSachTour.Name = "clTenTour_DanhSachTour";
+            this.clTenTour_DanhSachTour.ReadOnly = true;
+            // 
+            // clGia_DanhSachTour
+            // 
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clGia_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle5;
+            this.clGia_DanhSachTour.FillWeight = 100.3474F;
+            this.clGia_DanhSachTour.HeaderText = "Giá";
+            this.clGia_DanhSachTour.Name = "clGia_DanhSachTour";
+            this.clGia_DanhSachTour.ReadOnly = true;
+            // 
+            // clSoDiemDuLich_DanhSachTour
+            // 
+            this.clSoDiemDuLich_DanhSachTour.HeaderText = "Số điểm du lịch";
+            this.clSoDiemDuLich_DanhSachTour.Name = "clSoDiemDuLich_DanhSachTour";
+            this.clSoDiemDuLich_DanhSachTour.ReadOnly = true;
+            // 
+            // clSLNgay_DanhSachTour
+            // 
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clSLNgay_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle6;
+            this.clSLNgay_DanhSachTour.HeaderText = "SL ngày";
+            this.clSLNgay_DanhSachTour.Name = "clSLNgay_DanhSachTour";
+            this.clSLNgay_DanhSachTour.ReadOnly = true;
+            // 
+            // clLoaiHinhDL_DanhSachTour
+            // 
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clLoaiHinhDL_DanhSachTour.DefaultCellStyle = dataGridViewCellStyle7;
+            this.clLoaiHinhDL_DanhSachTour.FillWeight = 91.37056F;
+            this.clLoaiHinhDL_DanhSachTour.HeaderText = "Loại hình DL";
+            this.clLoaiHinhDL_DanhSachTour.Name = "clLoaiHinhDL_DanhSachTour";
+            this.clLoaiHinhDL_DanhSachTour.ReadOnly = true;
+            // 
+            // clMaTour_Tour_DanhSachCacDiaDiem
+            // 
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clMaTour_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle22;
+            this.clMaTour_Tour_DanhSachCacDiaDiem.FillWeight = 61.07278F;
+            this.clMaTour_Tour_DanhSachCacDiaDiem.HeaderText = "Mã tour";
+            this.clMaTour_Tour_DanhSachCacDiaDiem.Name = "clMaTour_Tour_DanhSachCacDiaDiem";
+            this.clMaTour_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            // 
+            // clTenTour_Tour_DanhSachCacDiaDiem
+            // 
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clTenTour_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle23;
+            this.clTenTour_Tour_DanhSachCacDiaDiem.FillWeight = 147.2092F;
+            this.clTenTour_Tour_DanhSachCacDiaDiem.HeaderText = "Tên tour";
+            this.clTenTour_Tour_DanhSachCacDiaDiem.MinimumWidth = 50;
+            this.clTenTour_Tour_DanhSachCacDiaDiem.Name = "clTenTour_Tour_DanhSachCacDiaDiem";
+            this.clTenTour_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            // 
+            // clGia_Tour_DanhSachCacDiaDiem
+            // 
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clGia_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle24;
+            this.clGia_Tour_DanhSachCacDiaDiem.FillWeight = 100.3474F;
+            this.clGia_Tour_DanhSachCacDiaDiem.HeaderText = "Giá";
+            this.clGia_Tour_DanhSachCacDiaDiem.Name = "clGia_Tour_DanhSachCacDiaDiem";
+            this.clGia_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            // 
+            // clSLNgay_Tour_DanhSachCacDiaDiem
+            // 
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clSLNgay_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle25;
+            this.clSLNgay_Tour_DanhSachCacDiaDiem.HeaderText = "SL ngày";
+            this.clSLNgay_Tour_DanhSachCacDiaDiem.Name = "clSLNgay_Tour_DanhSachCacDiaDiem";
+            this.clSLNgay_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            // 
+            // clLoaiHinhDL_Tour_DanhSachCacDiaDiem
+            // 
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.DefaultCellStyle = dataGridViewCellStyle26;
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.FillWeight = 91.37056F;
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.HeaderText = "Loại hình DL";
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.Name = "clLoaiHinhDL_Tour_DanhSachCacDiaDiem";
+            this.clLoaiHinhDL_Tour_DanhSachCacDiaDiem.ReadOnly = true;
+            // 
             // frmQL_TourDuLich
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -734,11 +735,6 @@
         private System.Windows.Forms.Label lbTimKiem_DanhSachCacDiaDiem;
         private System.Windows.Forms.DataGridView dgvTour_DanhSachCacDiaDiem;
         private System.Windows.Forms.TextBox txtTimKiem_DanhSachCacDiaDiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clMaTour_Tour_DanhSachCacDiaDiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clTenTour_Tour_DanhSachCacDiaDiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clGia_Tour_DanhSachCacDiaDiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clSLNgay_Tour_DanhSachCacDiaDiem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn clLoaiHinhDL_Tour_DanhSachCacDiaDiem;
         private System.Windows.Forms.DataGridViewTextBoxColumn clMaDD_DiaDiem_DanhSachCacDiaDiem;
         private System.Windows.Forms.DataGridViewTextBoxColumn clTenDD_DiaDiem_DanhSachCacDiaDiem;
         private System.Windows.Forms.DataGridViewTextBoxColumn clTinhThanh_DiaDiem_DanhSachCacDiaDiem;
@@ -747,13 +743,18 @@
         private System.Windows.Forms.Label lbTimKiem_DanhSachTour;
         private System.Windows.Forms.DataGridView dgvTour_DanhSachTour;
         private System.Windows.Forms.TextBox txtTimKiem_DanhSachTour;
+        private System.Windows.Forms.Timer tThoiGianHienTai;
         private System.Windows.Forms.DataGridViewTextBoxColumn clMaTour_DanhSachTour;
         private System.Windows.Forms.DataGridViewTextBoxColumn clTenTour_DanhSachTour;
         private System.Windows.Forms.DataGridViewTextBoxColumn clGia_DanhSachTour;
         private System.Windows.Forms.DataGridViewTextBoxColumn clSoDiemDuLich_DanhSachTour;
         private System.Windows.Forms.DataGridViewTextBoxColumn clSLNgay_DanhSachTour;
         private System.Windows.Forms.DataGridViewTextBoxColumn clLoaiHinhDL_DanhSachTour;
-        private System.Windows.Forms.Timer tThoiGianHienTai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clMaTour_Tour_DanhSachCacDiaDiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clTenTour_Tour_DanhSachCacDiaDiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clGia_Tour_DanhSachCacDiaDiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clSLNgay_Tour_DanhSachCacDiaDiem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clLoaiHinhDL_Tour_DanhSachCacDiaDiem;
 
     }
 }

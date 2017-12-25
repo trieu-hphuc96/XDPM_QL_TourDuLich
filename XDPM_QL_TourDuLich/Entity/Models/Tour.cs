@@ -43,4 +43,6 @@ namespace Entity.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Tour_DiaDiemDL> Tour_DiaDiemDL { get; set; }
     }
+
+
 }

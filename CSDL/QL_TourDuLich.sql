@@ -107,6 +107,14 @@ create table Tour
 	primary key (MaTour),
 	foreign key (LoaiHinhDL) references LoaiHinhDL(MaLHDL)
 )
+go
+insert into Tour (TenTour,SoDiemDuLich,SLNgay,LoaiHinhDL)
+values 
+(N'Sài Gòn - Cà Mau',4,3,1),
+(N'Sài Gòn - Nha Trang',4,3,1),
+(N'Sài Gòn - Mũi Né',4,3,1)
+
+go
 
 create table Gia_Tour
 (
@@ -126,6 +134,7 @@ create table Tour_DiaDiemDL
 (
 	MaTour int not null,
 	MaDD int not null,
+	GhiChu nvarchar(50)
 
 	primary key (MaTour,MaDD),
 	foreign key (MaTour) references Tour(MaTour),
@@ -154,6 +163,7 @@ create table DoanDL_KhachHang
 (
 	MaDoan int not null,
 	MaKH int not null,
+	GhiChu nvarchar(50)
 
 	primary key (MaDoan,MaKH),
 	foreign key (MaDoan) references DoanDL(MaDoan),

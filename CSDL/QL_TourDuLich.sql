@@ -82,6 +82,13 @@ create table TinhThanh
 
 	primary key (MaTT) 
 )
+go
+insert into TinhThanh (TenTT)
+values 
+(N'Cà Mau')
+
+go
+
 create table DiaDiemDL
 (
 	MaDD int identity(1,1) not null,
@@ -92,6 +99,15 @@ create table DiaDiemDL
 	primary key (MaDD),
 	foreign key (TinhThanh) references TinhThanh(MaTT)
 )
+go
+insert into DiaDiemDL (TenDD,TinhThanh,QuocGia)
+values 
+(N'Chợ Năm Căn',1,N'Việt Nam'),
+(N'Rừng U Minh',1,N'Việt Nam'),
+(N'Trung tâm thành phố',1,N'Việt Nam')
+
+go
+
 ----------------------------------------------------
 create table Tour
 (
@@ -130,6 +146,15 @@ create table Gia_Tour
 	foreign key (MaTour) references Tour(MaTour)
 )
 
+go
+insert into Gia_Tour (MaTour,ThoiGianBD,ThoiGianKT,Gia)
+values 
+(1,'12/20/2017','1/1/2018',560000),
+(2,'12/20/2017','3/3/2018',660000),
+(3,'12/20/2017','3/3/2018',360000)
+
+go
+
 create table Tour_DiaDiemDL
 (
 	MaTour int not null,
@@ -140,6 +165,15 @@ create table Tour_DiaDiemDL
 	foreign key (MaTour) references Tour(MaTour),
 	foreign key (MaDD) references DiaDiemDL(MaDD)
 )
+
+go
+insert into Tour_DiaDiemDL (MaTour,MaDD)
+values 
+(1,1),
+(1,2),
+(1,3)
+
+go
 
 create table DoanDL
 (

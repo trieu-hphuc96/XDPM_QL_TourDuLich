@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BIZ\DiaDiemDL.cs" />
+    <Compile Include="BIZ\DoanDL.cs" />
     <Compile Include="BIZ\Tour.cs" />
     <Compile Include="frmQL_TourDuLich.cs">
       <SubType>Form</SubType>

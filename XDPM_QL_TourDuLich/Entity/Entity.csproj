@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DAL\DiaDiemDL.cs" />
+    <Compile Include="DAL\DoanDL.cs" />
     <Compile Include="DAL\Tour.cs" />
     <Compile Include="List_to_DataTable.cs" />
     <Compile Include="Models\DiaDiemDL.cs" />

@@ -193,6 +193,16 @@ create table DoanDL
 
 	primary key (MaDoan)
 )
+
+go
+insert into DoanDL (MaTour,TenDoan,NgayGioKhoiHanh,NgayGioKetThuc,SLKhach,SLNV,TongCPKS,TongCPPT,TongCPBA,TongCPKhac,MaTourGia)
+values 
+(1,N'Đoàn 1','1/1/2017','1/1/2018',5,2,50000,70000,45000,10000,1),
+(1,N'Đoàn 2','1/1/2017','1/1/2018',3,3,70000,60000,76000,9000,2),
+(1,N'Đoàn 3','1/1/2017','1/1/2018',1,4,60000,40000,79000,2000,3)
+
+go
+
 create table DoanDL_KhachHang
 (
 	MaDoan int not null,
@@ -230,6 +240,14 @@ create table Doan_KhachSan
 	foreign key (MaDD) references DiaDiemDL(MaDD)
 )
 
+go
+insert into Doan_KhachSan (MaDoan,MaDD,TenKS,Gia)
+values 
+(1,1,N'New World 1',150000),
+(2,3,N'New World 2',168000),
+(3,2,N'New World 3',640000)
+
+go
 create table Doan_QuanAn
 (
 	MaDQA int identity(1,1) not null,

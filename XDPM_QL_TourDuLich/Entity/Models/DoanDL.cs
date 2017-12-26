@@ -68,4 +68,65 @@ namespace Entity.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<DoanDL_NhanVien> DoanDL_NhanVien { get; set; }
     }
+
+    public class ThongKeChiPhiKhachSan
+    {
+        public int MaDoan { get; set; }
+
+        public string TenDoan { get; set; }
+
+        public string TenDD { get; set; }
+
+        public string TenKS { get; set; }
+
+        public int Gia { get; set; }
+    }
+
+    public class ThongKeDoanhThu
+    {
+        public string TenTour { get; set; }
+
+        public string TenDoan { get; set; }
+
+        public int Gia { get; set; }
+
+        public DateTime NgayGioKhoiHanh { get; set; }
+
+        public DateTime NgayGioKetThuc { get; set; }
+
+        public int SLKhach { get; set; }
+
+        public int SLNV { get; set; }
+
+        public int TongCPKS { get; set; }
+
+        public int TongCPPT { get; set; }
+
+        public int TongCPBA { get; set; }
+
+        public int TongCPKhac { get; set; }
+    }
+
+    public class ThongKeTinhHinh
+    {
+        public string TenDoan { get; set; }
+
+        public int Gia { get; set; }
+
+        public DateTime NgayGioKhoiHanh { get; set; }
+
+        public DateTime NgayGioKetThuc { get; set; }
+
+        public int SLKhach { get; set; }
+
+        public int SLNV { get; set; }
+
+        public int TongCPKS { get; set; }
+
+        public int TongCPPT { get; set; }
+
+        public int TongCPBA { get; set; }
+
+        public int TongCPKhac { get; set; }
+    }
 }
